@@ -11,8 +11,8 @@
   "scripts": {
     "start:dev": "rimraf dist && tsc -w",
     "build": "rimraf dist && tsc",
+    "prepare": "npm run build",
     "install": "npm install",
-    "postinstall": "npm run build",
     "postbuild": "echo \"Library published @yml/npm-auto-data\"",
     "format": "prettier --write \"src/**/*.ts\"",
     "test": "jest",
