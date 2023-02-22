@@ -1,5 +1,5 @@
 {
-  "name": "@yml/npm-auto-data",
+  "name": "@yml/npm-auto-data_service",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
